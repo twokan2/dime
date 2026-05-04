@@ -7,12 +7,12 @@ import { FR_LEVELS, FR_Q } from "./fr_questions";
 import { ZH_LEVELS, ZH_Q } from "./zh_questions";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBvn9IZcL618S2jhArXWa--K123Y1i-f7g",
-  authDomain: "ds-dynamic-app.firebaseapp.com",
-  projectId: "ds-dynamic-app",
-  storageBucket: "ds-dynamic-app.firebasestorage.app",
-  messagingSenderId: "366254576022",
-  appId: "1:366254576022:web:dd0a197b734f498e8fcdb7"
+  apiKey: "AIzaSyAtwycKG9sQjwsT-Y7qnQRsEoG-K467Csg",
+  authDomain: "playdime-prod.firebaseapp.com",
+  projectId: "playdime-prod",
+  storageBucket: "playdime-prod.firebasestorage.app",
+  messagingSenderId: "1063748919431",
+  appId: "1:1063748919431:web:2d5af21655a9a493499822"
 };
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
